@@ -22,10 +22,9 @@ var camara, escena, renderer;
   //la figuera se establece sobre el plano xz
   var puntos =[];
   for (var i = 0; i<50; i++){
-  puntos.push(new THREE.Vector3(
+  puntos.push(new THREE.Vector2(
   								Math.sin(i*0.2)*15+50,
-  								0,
-  								(1-5)*2));}
+  								(i-5)*2));}
   var forma =new THREE.LatheGeometry(puntos);
   var malla=new THREE.Mesh(forma);
   escena.add(malla);
