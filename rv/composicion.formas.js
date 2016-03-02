@@ -36,7 +36,7 @@ var cilindroForma= new THREE.CylinderGeometry(0.5,0.5,4);
  camara.position.z=10;
  
  renderer= new THREE.WebGLRenderer();
- renderer.setSize(window.innerheight*.95, window.innerHeight*.95);
+ renderer.setSize(window.innerHeight*.95, window.innerHeight*.95);
  document.body.appendChild(renderer.domElement);
  }
  
@@ -44,8 +44,8 @@ var cilindroForma= new THREE.CylinderGeometry(0.5,0.5,4);
   requestAnimationFrame(loop);
   //Es importante notar que las rotaciones son sobre los ejes que  estan fijos a la malla, no los ejees del lienzo, inicialmente ambos coincide
   
-  malla.rotatio.x +=0.01;
-  malla.rotatio.t +=0.01;
+  malla.rotation.x +=0.01;
+  malla.rotation.t +=0.01;
   
   renderer.render(escena,camara);
 }
