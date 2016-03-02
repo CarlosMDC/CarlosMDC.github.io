@@ -1,8 +1,8 @@
 function setup(){
 //se plantea las geometrias a utillixzar
 
-var esferaforma= new THREE.SphereGeometry(1);
-var cilindroforma= new THREE.CylinderGeometry(0.5,0.5,4);
+var esferaForma= new THREE.SphereGeometry(1);
+var cilindroForma= new THREE.CylinderGeometry(0.5,0.5,4);
  //Para generar una forma combinada se requiere de las mallas poaras poder desplazar las formas en el espacio virtual
  
   var esfera1 = new THREE.Mesh(esferaForma);
