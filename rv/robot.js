@@ -5,10 +5,10 @@ var cuboForma= new THREE.BoxGeometry(1,1,1);
 var cil= new THREE.CircleGeometry(0.1,0.5,1);
 var cilindroForma = new THREE.ExtrudeGeometry(cil,{amount:1});
 var tri= new THREE.Shape();
-triangulo.moveTo(0,0);
-triangulo.lineTo(0.5,0.5);
-triangulo.lineTo(1,0);
-triangulo.lineTo(0,0);
+tri.moveTo(0,0);
+tri.lineTo(0.5,0.5);
+tri.lineTo(1,0);
+tri.lineTo(0,0);
 var trianguloForma = new THREE.ExtrudeGeometry(tri,{amount:1});
 
  //Para generar una forma combinada se requiere de las mallas poaras poder desplazar las formas en el espacio virtual
