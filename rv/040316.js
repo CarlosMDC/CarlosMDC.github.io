@@ -27,7 +27,7 @@ function setup(){
   escena.add(cuerpo);
   escena.add(piernaD);
   escena.add(piernaI);
-  camara= nee THREE.PErspective.Camera();
+  camara= new THREE.Perspective.Camera();
   camara.postion.z=20;
   
   renderer=new THREE.WebGLRenderer();
