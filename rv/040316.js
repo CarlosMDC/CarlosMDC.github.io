@@ -16,7 +16,7 @@ this.add(this.pie);
 //finalmente se agraga 
 Pierna.Prototype=new THREE.Object3D();
 function setup(){
-  var cuerpo= new THREE= new THREE.Mesh(new THREE.CylinderGeometry(1,2,5,10));
+  var cuerpo= new THREE.Mesh(new THREE.CylinderGeometry(1,2,5,10));
   pienraD=new Pierna();
   pienraI=new Pierna();
   cuerpo.position.y=2;
