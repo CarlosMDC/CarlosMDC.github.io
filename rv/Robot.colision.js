@@ -103,14 +103,16 @@ function loop() {
 	obstaculo3= raycaster3.intersectObject(Pared3);
 	obstaculo4= raycaster4.intersectObject(Pared4);
 
-	//wally.position.x +=step;
+	wally.position.x +=step;
+
+
 
 	if((obstaculo1.length>0 && (obstaculo1[0].distance<=10)))
 	step=-step;
 	wally.position.x +=step;
 
 		if((obstaculo1.length>0 && (obstaculo1[0].distance>1)))
-		step=step;
+		//step=step;
 		wally.position.y +=step;
 	
 			if((obstaculo3.length>0 && (obstaculo3[0].distance<=10)))
