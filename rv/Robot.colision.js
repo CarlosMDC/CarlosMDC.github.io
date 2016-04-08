@@ -124,7 +124,7 @@ function loop() {
 				wally.position.y -=step;
 	
 					if((obstaculo4.length>0 && (obstaculo4[0].distance<=10)))
-					//step=step;
+					step=step;
 					wally.position.x +=step;
 					
 				
